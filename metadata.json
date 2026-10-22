@@ -1,0 +1,6 @@
+{
+  "name": "Traiteur Laskar — Traiteur Événementiel Antananarivo",
+  "description": "Prototype de site web moderne pour Traiteur Laskar : buffets, grillades et menus servis pour réceptions et mariages à Antananarivo avec estimateur de devis en direct et WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

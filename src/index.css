@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom styling touches */
+.text-gold {
+  color: #c99a3e;
+}
+.bg-gold {
+  background-color: #c99a3e;
+}
+.border-gold {
+  border-color: #c99a3e;
+}
+.bg-canard {
+  background-color: #0b343f;
+}
+.text-canard {
+  color: #0b343f;
+}
+
