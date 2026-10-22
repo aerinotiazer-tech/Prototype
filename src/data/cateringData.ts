@@ -61,7 +61,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: 'buffet',
     shortDesc: 'Buffets chauds et froids généreux, assortiments de canapés, verrines fraîches et spécialités gourmandes.',
     fullDesc: 'Une formule conviviale et variée idéale pour satisfaire tous les goûts. Présentation soignée sur présentoirs en bois noble et ardoise avec chauffe-plats professionnels.',
-    image: '/src/assets/images/buffet_traiteur_1792658265909.jpg',
+    image: '/assets/images/buffet_traiteur_1792658265909.jpg',
     highlights: ['Verrines et pièces cocktail', 'Chauffe-plats en inox poli', 'Assortiment salades & viandes chaudes', 'Recharge continue du buffet'],
     recommendedGuestRange: '30 à 600 personnes',
     suggestedFormula: 'confort'
@@ -72,7 +72,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: 'grillades',
     shortDesc: 'Brochettes de zébu marinées, volailles braisées aux épices douces, méchouis et poissons grillés au feu de bois.',
     fullDesc: 'L’authenticité et la gourmandise du barbecue événementiel. Cuisson maîtrisée en direct par nos maîtres grilladins avec sauces maison (sauce combava, piment vert doux, rougail mangue).',
-    image: '/src/assets/images/grillades_bbq_1792658266867.jpg',
+    image: '/assets/images/grillades_bbq_1792658266867.jpg',
     highlights: ['Zébu tendre mariné au poivre sauvage', 'Poulet fermier braisé au feu de bois', 'Sauces et achards traditionnels', 'Animation cuisson en direct'],
     recommendedGuestRange: '40 à 500 personnes',
     suggestedFormula: 'confort'
@@ -83,7 +83,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: 'menu_servi',
     shortDesc: 'Haute gastronomie et service à table élégant en 3 à 5 temps pour vos réceptions les plus prestigieuses.',
     fullDesc: 'Une expérience culinaire d’exception avec dressage minutieux à l’assiette, filets de viande sélectionnés, réductions délicates et accompagnements de saison.',
-    image: '/src/assets/images/menu_servi_gastronomie_1792658266260.jpg',
+    image: '/assets/images/menu_servi_gastronomie_1792658266260.jpg',
     highlights: ['Service synchronisé par notre brigade', 'Dressage gastronomique soigné', 'Entrée, plat raffiné, dessert signature', 'Parfait pour dîners de gala'],
     recommendedGuestRange: '20 à 300 personnes',
     suggestedFormula: 'prestige'
@@ -94,7 +94,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: 'mariage',
     shortDesc: 'Organisation culinaire complète pour le plus beau jour de votre vie à Antananarivo et ses domaines.',
     fullDesc: 'Du cocktail d’accueil avec canapés jusqu’à la pièce montée nuptiale, nous scénarisons chaque étape gustative de votre mariage avec raffinement et discrétion.',
-    image: '/src/assets/images/reception_mariage_1792658267035.jpg',
+    image: '/assets/images/reception_mariage_1792658267035.jpg',
     highlights: ['Vin d\'honneur & rafraîchissements', 'Banquet nuptial au choix', 'Service coordonné avec votre timing', 'Pièce montée & fontaine à champagne'],
     recommendedGuestRange: '50 à 800+ personnes',
     suggestedFormula: 'prestige'
@@ -105,7 +105,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: 'anniversaire',
     shortDesc: 'Formules festives et chaleureuses pour célébrer vos grandes dates en famille ou entre amis.',
     fullDesc: 'Des propositions adaptées aux ambiances décontractées comme aux soirées sophistiquées, avec bar à brochettes, desserts gourmands et service attentionné.',
-    image: '/src/assets/images/hero_buffet_event_1792658265445.jpg',
+    image: '/assets/images/hero_buffet_event_1792658265445.jpg',
     highlights: ['Buffet dînatoire ou grillades festives', 'Gâteau d\'anniversaire personnalisé', 'Options enfants & ados', 'Logistique complète prise en charge'],
     recommendedGuestRange: '20 à 250 personnes',
     suggestedFormula: 'essentielle'
@@ -116,7 +116,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: 'entreprise',
     shortDesc: 'Cocktails d\'entreprise, déjeuners de séminaire, lancements de marque et galas annuels.',
     fullDesc: 'Ponctualité rigoureuse, personnel en uniforme impeccable et formules rapides ou assises pour valoriser l’image de marque de votre entreprise.',
-    image: '/src/assets/images/buffet_traiteur_1792658265909.jpg',
+    image: '/assets/images/buffet_traiteur_1792658265909.jpg',
     highlights: ['Respect strict des plannings d’entreprise', 'Facturation pro avec justificatifs', 'Pause-café et déjeuners d’affaires', 'Cocktails de fin d’année'],
     recommendedGuestRange: '25 à 500 personnes',
     suggestedFormula: 'confort'
@@ -240,35 +240,35 @@ export const GALLERY_ITEMS = [
     id: 'gal-1',
     title: 'Buffet Réception Nuptiale',
     category: 'buffet',
-    image: '/src/assets/images/hero_buffet_event_1792658265445.jpg',
+    image: '/assets/images/hero_buffet_event_1792658265445.jpg',
     desc: 'Grand buffet d\'accueil pour 250 convives au domaine de Tanjombato.'
   },
   {
     id: 'gal-2',
     title: 'Barbecue et Brochettes Zébu',
     category: 'grillades',
-    image: '/src/assets/images/grillades_bbq_1792658266867.jpg',
+    image: '/assets/images/grillades_bbq_1792658266867.jpg',
     desc: 'Atelier de découpe et grillades en direct au feu de bois pour un anniversaire.'
   },
   {
     id: 'gal-3',
     title: 'Dressage Assiette Dîner de Gala',
     category: 'menu_servi',
-    image: '/src/assets/images/menu_servi_gastronomie_1792658266260.jpg',
+    image: '/assets/images/menu_servi_gastronomie_1792658266260.jpg',
     desc: 'Filet de bœuf rôti au poivre sauvage pour une soirée d\'entreprise à Ivato.'
   },
   {
     id: 'gal-4',
     title: 'Assortiment Salé & Canapés Froids',
     category: 'buffet',
-    image: '/src/assets/images/buffet_traiteur_1792658265909.jpg',
+    image: '/assets/images/buffet_traiteur_1792658265909.jpg',
     desc: 'Verrines colorées, mini-burgers gourmets et canapés sur ardoise.'
   },
   {
     id: 'gal-5',
     title: 'Mise en Place Romantique sous Pergola',
     category: 'reception',
-    image: '/src/assets/images/reception_mariage_1792658267035.jpg',
+    image: '/assets/images/reception_mariage_1792658267035.jpg',
     desc: 'Ambiance guinguette chic et tables dorées sur les hauteurs d\'Ilafy.'
   }
 ];

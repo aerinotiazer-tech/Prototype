@@ -83,7 +83,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/60 group">
               <img
-                src="/src/assets/images/hero_buffet_event_1792658265445.jpg"
+                src="/assets/images/hero_buffet_event_1792658265445.jpg"
                 alt="Buffet de mariage et banquet traiteur somptueux à Antananarivo"
                 referrerPolicy="no-referrer"
                 className="w-full h-[360px] sm:h-[420px] lg:h-[460px] object-cover object-center group-hover:scale-102 transition-transform duration-700 ease-out"
